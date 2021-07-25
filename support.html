@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        * {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        a {
+            font-size: 2rem;
+            margin: 1rem;
+        }
+        
+        .navbar-brand {
+            font-size: 3rem;
+        }
+        
+        .img-responsive {
+            height: 7cm;
+            width: 7cm;
+        }
+        
+        h3 {
+            font-size: 4rem;
+        }
+        
+        p {
+            font-size: 3rem;
+        }
+        
+        .col-sm-6 {
+            padding: 3cm;
+        }
+        
+        h4 {
+            font-size: 5rem;
+            color: black;
+            text-align: center;
+        }
+        
+        .col-sm-4 {
+            padding: 3cm;
+        }
+        
+        .col-sm-4>img:hover {
+            transform: scale(1.4);
+        }
+        
+        hr {
+            border: 2px solid black;
+        }
+        
+        .col-sm-8 {
+            width: 15cm;
+            margin: 0.5cm;
+        }
+        
+        .address {
+            width: 16cm;
+            margin: 1cm;
+        }
+        
+        .form-control {
+            width: 13cm;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 2rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+        <div class="navbar-header">
+            <a class="navbar-brand" href="home.html"><span style="color: red;">Ear</span>Bot</a>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span ></span>Audio Product </a></li>
+
+            <li><a href="connect.html"><span ></span>Gallery </a></li>
+            <li><a href="support.html"><span ></span> Support</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <ul class=" nav navbar-nav">
+                <li><a>Home</a></li>
+
+                <li>/</li>
+
+                <li><a>contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+
+
+                    <span class="glyphicon glyphicon-envelope"> Contact</span>
+
+                </div>
+
+                <div class="panel-body container">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pwd">Message:</label><br>
+                            <textarea class="form-control" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-sm-4 address">
+            <div class="panel panel-default">
+                <div class="panel-heading " style="background-color: greenyellow;">
+                    <p>Address</p>
+                </div>
+                <div class="panel-body">
+                    <p>India<br>Email:earbot@gmail.com<br>Tel:04175 445</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h2>WE ARE SOCIAL</h2><br>
+        <i style="font-size:50px;color:skyblue" class="fa">&#xf099;</i>&nbsp;&nbsp;&nbsp;
+        <i style="font-size:50px;color:skyblue" class="fa">&#xf230;</i>
+    </footer>
+
+</body>
+
+</html>
