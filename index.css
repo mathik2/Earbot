@@ -1,0 +1,30 @@
+
+body {
+    background-color: black;
+}
+
+img {
+    height: 6cm;
+    width: 6cm;
+}
+
+.topimage {
+    margin-left: 40%;
+}
+
+img:hover {
+    transform: rotate(360deg);
+    transition: transform 3s;
+}
+
+.row,
+.topimage {
+    padding: 1cm;
+}
+
+.welcometext {
+    font-size: 7rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
